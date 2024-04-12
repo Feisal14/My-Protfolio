@@ -5,6 +5,7 @@ import { ProjectList } from "../helpers/ProjectList";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
 import "../styles/ProjectDisplay.css";
+import { Button } from "@mui/material";
 
 const ProjectDisplay: React.FC = () => {
   interface RouteParams {
@@ -23,7 +24,17 @@ const ProjectDisplay: React.FC = () => {
     <div className="project">
       <h1>{project.name}</h1>
       <img src={project.image} />
-      <p> <b>Skills: {project.skills}</b></p>
+      <p>
+        {" "}
+        <b>Skills: {project.skills}</b>
+      </p>
+
+      <a target="_blank">
+        <Button variant="contained" href={project.url}>
+          WebSite
+        </Button>
+      </a>
+
       <GitHubIcon />
     </div>
   );

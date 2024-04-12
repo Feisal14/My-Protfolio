@@ -78,3 +78,7 @@
     font-size: 30px;
   }
 }
+.prompt .resume .MuiButton-root {
+  margin-bottom: 40px;
+}
+

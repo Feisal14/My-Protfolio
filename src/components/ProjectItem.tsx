@@ -15,7 +15,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ image, name, id }) => {
       onClick={() => {
         navigate("/project/" + id);
       }}
-    >
+    > 
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
       <h3>{name}</h3>
     </div>

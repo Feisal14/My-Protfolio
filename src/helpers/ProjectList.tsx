@@ -1,4 +1,5 @@
 import Proj1 from "../assets/no-image.png";
+import Porj2 from "../assets/tv.png";
 
 export const ProjectList = [
   {
@@ -8,7 +9,8 @@ export const ProjectList = [
   },
   {
     name: "Movie Rating App",
-    image: Proj1,
+    image: Porj2,
     skills: ["React", " TypeScript", " API"],
+    url: 'https://movies-tv-rated.netlify.app/'
   },
 ];

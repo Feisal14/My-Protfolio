@@ -5,6 +5,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import GithubIcon from "@mui/icons-material/GitHub";
 
 import "../styles/Home.css";
+import { Button } from "@mui/material";
 
 const Home = () => {
   return (
@@ -13,12 +14,24 @@ const Home = () => {
         <h2>Hello, My name is Faisal</h2>
         <div className="prompt">
           <p>
-            A Front-End developer with a passion for learning and ceating cool
+            A Front-End developer with a passion for learning and creating cool
             stuff.
           </p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
+          <a href="https://www.linkedin.com/in/faisal-yanbaawi" target="_blank">
+            <LinkedInIcon />
+          </a>
+
+          <a href="mailto:FaisalYanbaawi@outlook.com" target="_blank">
+            <EmailIcon />
+          </a>
+          <a href="https://github.com/Feisal14" target="_blank">
+            <GithubIcon />
+          </a>
+          <a href="https://drive.google.com/file/d/1m_tjNTvNO-GzmNVYsWf1yQkb3cZKpQGb/view?usp=sharing" className="resume" target="_target">
+              <Button variant="contained" disableElevation>
+                RESUME
+              </Button>
+            </a>
         </div>
       </div>
       <div className="skills">
