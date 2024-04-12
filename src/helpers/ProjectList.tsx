@@ -6,6 +6,7 @@ export const ProjectList = [
     name: "Persuasive Techqniues",
     image: Proj1,
     skills: [" Python", " BertModel", " NLP"],
+    
   },
   {
     name: "Movie Rating App",

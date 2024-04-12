@@ -3,7 +3,7 @@ import React from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import GithubIcon from "@mui/icons-material/GitHub";
-
+import {PDF} from "../assets/Final Edit Resume.pdf"
 import "../styles/Home.css";
 import { Button } from "@mui/material";
 
@@ -27,7 +27,7 @@ const Home = () => {
           <a href="https://github.com/Feisal14" target="_blank">
             <GithubIcon />
           </a>
-          <a href="https://drive.google.com/file/d/1m_tjNTvNO-GzmNVYsWf1yQkb3cZKpQGb/view?usp=sharing" className="resume" target="_target">
+          <a href={PDF} className="resume" target="_target">
               <Button variant="contained" disableElevation>
                 RESUME
               </Button>
